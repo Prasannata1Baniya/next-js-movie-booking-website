@@ -15,21 +15,21 @@ export default function Navbar() {
         <div className="flex items-center gap-8">
           <Link
             href="/"
-            className="text-text-primary text-white transition-colors hover:text-accent"
+            className="text-primary transition-colors hover:text-accent"
           >
             Home
           </Link>
 
           <Link
             href="/movies"
-            className="text-text-primary text-white transition-colors hover:text-accent"
+            className="text-primary  transition-colors hover:text-accent"
           >
             Movies
           </Link>
 
           <Link
             href="/theatres"
-            className="text-text-primary text-white transition-colors hover:text-accent"
+            className="text-primary transition-colors hover:text-accent"
           >
             Theatres
           </Link>
